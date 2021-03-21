@@ -1,0 +1,275 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-Jul-2020, 11:09:00 AM
+    Author     : Acer Home PC
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height:200vh;
+    background: #ffffff;
+}
+
+
+/* Increase the font size of the h1 element */
+header{
+    background-image: url('Pictures/Suit Pic.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 10px;
+    z-index: 2;
+}
+
+
+nav ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+
+}
+
+nav ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    color: grey;
+
+}
+nav.sticky{
+    background-color: white;
+    padding: 5px 10px;
+}
+nav.sticky ul li a{
+    color: black;
+}
+
+.logo{
+    position: relative;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    transition: 0.5s;
+}
+
+
+.outerBox{
+    background-color: white;
+    width: 702px;
+    padding: 2px;
+    margin: 10px 30%;
+}
+.innerBox{
+    background-color: #ffffff;
+    align-content: center;
+    width: 700px;
+    padding: 10px 1px;
+
+
+}
+
+.title{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.p1{
+    position: relative;
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 90px;    
+    margin-right: 200%;
+    text-decoration: none;
+    border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+
+    background: #125688;
+    color: white;
+}
+
+.fa-google {
+
+    background: #dd4b39;
+    color: white;
+}
+
+table, th, td {
+    margin: 5px 43%;
+    padding: 10px;
+    border-spacing: 5px;
+}
+.Bigwords {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+
+
+}
+
+.Aboutme {
+
+}
+.textR {
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 4%;
+}
+.textL {
+    font-size: 25px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+Aboutme title {
+    margin-left: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 75px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
